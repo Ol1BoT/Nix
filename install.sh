@@ -11,12 +11,14 @@ nix-env -iA \
   nixpkgs.direnv \
   nixpkgs.git \
   nixpkgs.neovim \
+  nixpkgs.stow \
   nixpkgs.bat \
   nixpkgs.ripgrep \
   nixpkgs.vscode \
   nixpkgs.direnv \
   nixpkgs.oh-my-zsh \
-  nixpkgs.antibody
+  nixpkgs.antibody \
+  nixpkgs.go
 
 # add zsh to login shells
 command -v zsh | sudo tee -a ~/etc/shells
